@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo What is the name of the password file
+read -r fileName
+echo What is password
+stty -echo
+read -r password
+stty echo
+echo What is the url that you would like to use
+read -r url
+
+#!/bin/bash
+stty -echo
+printf "Password: "
+read PASSWORD
+stty echo
+printf "\n"
+
+7z -e -so $fileName < $password
+#(7z -e -so $fileName < $password) | grep $email
