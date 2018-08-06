@@ -1,0 +1,22 @@
+#!/bin/bash
+
+###
+#
+# Setting up global settings
+#
+###
+BASEDIR=$(dirname $0)
+
+###
+#
+# Reading inputs
+#
+###
+stty -echo
+printf "Password: "
+read PASS
+printf "\n"
+stty echo
+export PASS
+
+${BASEDIR}/"$1".sh

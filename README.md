@@ -24,3 +24,22 @@ Tools and libraries planned to be used in the future:
 - bcrypt or other slow-encryption library for a more secure storage
 - json command line library to store, query and update the information
 
+How to use spassm:
+spassm <command> <required arguments> <optional arguments>
+
+Users can also enter required arguments with an interactive mode which starts automatically and inquires for
+missing parameters. Unspecified optional parameters use default values.
+
+Commands (to be implemented):
+		required		optional (default)
+commmon		password		name (info)
+getpass		site
+changepass	
+getsite
+addsite
+editsite
+compfiles
+
+Acknowledgements:
+This project has used homebrew packages as inspiration and the author would like to give special thanks to the 
+homebrew team for providing an invaluable tool free of charge for Mac users

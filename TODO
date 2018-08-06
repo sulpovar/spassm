@@ -1,0 +1,18 @@
+spassm command req_args opt_args
+
+each command is a separate file
+
+spassm gets that file and quires for req parms
+
+if any are missing, it goes through command line to inquires in an interactive mode
+
+runs the file
+
+implement now:
+- interactive mode
+- command scripts
+
+
+TODOS:
+- command line interpreter
+- check if command exists
