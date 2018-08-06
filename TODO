@@ -14,5 +14,7 @@ implement now:
 
 
 TODOS:
-- command line interpreter
+- cant input password on data stdin redirect
 - check if command exists
+
+- command line interpreter

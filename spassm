@@ -19,4 +19,6 @@ printf "\n"
 stty echo
 export PASS
 
+export FILE=$2
+
 ${BASEDIR}/"$1".sh
